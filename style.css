@@ -1,0 +1,76 @@
+body,html{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%
+}
+.dualite{
+    font-size: 70px;
+    text-align: center;
+    color: green;
+}
+.insta{
+    width:40px;
+}
+.facebook{
+    width: 30px;
+    height: 35px;
+}
+.twit{
+    width:41px;
+}
+.logotips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 25px;
+}
+.yuti,.yutieqvsi{
+    width: 180px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    background-color:orangered;
+    padding-top:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.teqsti,.shopping,.sales{text-align:center;
+}
+.middle,.bottom{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.yutiori,.yutiotxi{
+    color:green;
+    width:180px;
+    height:150px;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    background-color: plum;
+    padding-top:5px;
+    padding-bottom:10px;padding-right:15px;padding-left:15px;align-items:center
+}
+.yutisami,.yutixuti{
+    color:green;
+    width:180px;
+    height:150px;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    background-color:lightgreen;
+    padding-top:5px;
+    padding-bottom:10px;padding-right:15px;padding-left:15px;align-items:center;
+}
+.yuti,.yutiori,.yutisami,.yutiotxi,.yutixuti,.yutieqvsi{
+    box-shadow: 10px 10px 5px 0px #888888;
+  }
